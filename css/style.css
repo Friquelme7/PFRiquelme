@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(105, 105, 105);
+}
+header{
+    background-color: yellow;
+}
+main{
+    background-color: green;
+}
+footer{
+    background-color: brown;
+}
+section{
+    background-color: greenyellow;
+}
