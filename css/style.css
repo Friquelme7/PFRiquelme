@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(226, 48, 48);
+    font-family: 'Staatliches', cursive;    
 }
 header{
-    background-color: yellow;
+    background-color: rgba(255, 255, 255, 0);
+}
+header:hover{
+    background-color: white;
+    transition: all .5s ease;
 }
 main{
     background-color: green;
@@ -18,3 +23,63 @@ footer{
 section{
     background-color: greenyellow;
 }
+.zurich{
+    font-family: 'Staatliches', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: 600;
+    margin-right: 30px;
+
+}
+.decoracion{
+    color: black;
+}
+.decoracion:hover{
+    color: rgb(0, 0, 0);
+}
+.iconos{
+    width: 29px;
+}
+.cajaLink{
+    width: auto;
+}
+.cajaFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.lupita{
+    width: 29px; 
+    height: 22px;
+    margin-bottom: 5px;
+}
+.linkLupa{
+    text-decoration: none;
+    color: black;
+}
+.linkLupa:hover{
+    text-decoration: none;
+}
+.seasonal{
+    background-image: url(../media/1412.jpg);
+    background-position: 50% 40%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: rgb(83, 83, 83);
+    font-style: italic;
+}
+.gifiado{
+    width: 80px;
+    margin-bottom: 17px;
+}
+.cajita2{
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+}
+
