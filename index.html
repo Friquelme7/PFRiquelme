@@ -14,17 +14,18 @@
 </head>
 
 <body class="container-fluid">
-    <header class="row container-fluid position-fixed transition-soft">
+    <header class="row container-fluid position-fixed transition-soft indexado1">
         <div class="cajaFlex">
             <a class="linkLupa" href="">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search lupita" viewBox="0 0 16 16">
-                <path
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search lupita"
+                    viewBox="0 0 16 16">
+                    <path
                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                </svg> 
+                </svg>
             </a>
             <div class=cajita2>
-            <img class="gifiado" src="./media/giphy.gif" alt="">
-            <h1 class="zurich text-center">Meritz</h1>
+                <img class="gifiado" src="./media/giphy.gif" alt="">
+                <h1 class="meritz text-center">Meritz</h1>
             </div>
             <a class="cajaLink p-2" href=""><img class="iconos" src="./media/user.png" alt=""></a>
             <a class="cajaLink p-2" href=""><img class="iconos" src="./media/parcel.png" alt=""></a>
@@ -50,20 +51,104 @@
             </ul>
         </nav>
     </header>
-    <section class="row seasonal">
-        <p class="text-center">SPRING ARRIVAL</p>
+    <section class="row">
+        <div id="carouselExampleAutoplaying" class="p-0 carousel slide indexado" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./media/1-slide-1693522291682-6746997536-4707a8e1093671d2aaf12e6833440e421693522310-1920-1920 (1).webp"
+                        class="p-0 d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <p class="seasonal"> NEW SPRING ARRIVAL</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="./media/1-slide-1693941723373-5119881144-fa5a25d103d234d3eff5c7825f44e3361693941718-1920-1920.gif"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="row infoPago">
+        <div class="col infoColumnas">
+            <div class="row aling-items-center mx-5">
+                <div class="col-auto p-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="tarjetaCredito bi bi-credit-card"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z" />
+                        <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z" />
+                    </svg>
+                </div>
+                <div class="col  p-0 hackersman">
+                    <h3 class="mb-1">3 Cuotas sin interes</h3>
+                    <p class="m-0">Con tarjetas de credito</p>
+                </div>
+            </div>
+        </div>
+        <div class="col infoColumnas">
+            <div class="row aling-items-center mx-5">
+                <div class="col-auto p-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="tarjetaCredito bi bi-truck" viewBox="0 0 16 16">
+                        <path
+                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                    </svg>
+                </div>
+                <div class="col  p-0 hackersman">
+                    <h3 class="mb-1">Entregas gratis</h3>
+                    <p class="m-0">a partir de 20.000$</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-auto infoColumnas">
+            <div class="row aling-items-center mx-5">
+                <div class="col-auto p-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="informativo   bi bi-info-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                    </svg>
+                </div>
+                <div class="col  p-0 hackersman">
+                    <h3 class="mb-1">Contactate</h3>
+                    <p class="m-0">si tenes alguna duda no dudes en escribirnos</p>
+                </div>
+            </div>
+        </div>
     </section>
     <main class="row">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus quae iusto accusamus ducimus voluptatem veritatis veniam asperiores et? Ex, perspiciatis a itaque nobis aperiam sequi repudiandae fugiat fuga recusandae exercitationem consequuntur, ut suscipit at iusto pariatur animi vero dolorem iure illum voluptate assumenda alias aspernatur consequatur molestiae! Dolor quae itaque aspernatur, eum et nesciunt consequuntur temporibus nemo fugiat, dicta maxime. Non id maxime ut cum repellendus, earum, ab aliquam amet temporibus dolor similique autem commodi nemo? Culpa, odio quam nam deleniti suscipit hic. Voluptates quod aut est expedita voluptatibus quia labore nulla quis fuga et placeat eos harum ex tempore repellendus minima aperiam, error corporis, id distinctio iure? Velit a eius sequi quidem alias repellat libero nobis quis quisquam esse? Voluptatem aspernatur praesentium placeat eum necessitatibus a obcaecati ab qui amet ut dolor, eveniet ratione voluptate beatae dolorum ex deleniti ea ducimus nobis minus. Perferendis nisi dicta hic ipsum necessitatibus amet in! Nostrum vero dolore voluptatem! Pariatur corrupti dolorem, modi facere ut distinctio temporibus ex rerum perspiciatis asperiores harum aspernatur eum id voluptate itaque numquam ab provident nemo alias cupiditate maiores rem nisi quam vero. Culpa aliquid voluptas eaque inventore aspernatur repudiandae exercitationem magni nostrum ex, consectetur recusandae similique vel.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus quae iusto accusamus ducimus voluptatem
+        veritatis veniam asperiores et? Ex, perspiciatis a itaque nobis aperiam sequi repudiandae fugiat fuga recusandae
+        exercitationem consequuntur, ut suscipit at iusto pariatur animi vero dolorem iure illum voluptate assumenda
+        alias aspernatur consequatur molestiae! Dolor quae itaque aspernatur, eum et nesciunt consequuntur temporibus
+        nemo fugiat, dicta maxime. Non id maxime ut cum repellendus, earum, ab aliquam amet temporibus dolor similique
+        autem commodi nemo? Culpa, odio quam nam deleniti suscipit hic. Voluptates quod aut est expedita voluptatibus
     </main>
     <footer class="row">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odit illo delectus atque ullam magni ex tempore,
         numquam quaerat excepturi cupiditate dolorum vitae et. A error asperiores blanditiis ullam porro earum dolore
         modi omnis at fuga iusto alias, officiis quod.
 
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo temporibus illum natus dolore ab! Earum dolore, explicabo eveniet sed rem fuga iusto? Id modi atque ullam pariatur earum, placeat nesciunt.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo temporibus illum natus dolore ab! Earum dolore,
+        explicabo eveniet sed rem fuga iusto? Id modi atque ullam pariatur earum, placeat nesciunt.
 
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem laboriosam praesentium quibusdam debitis hic, cum quaerat quasi reprehenderit minima non quisquam nesciunt deleniti nisi veniam ea dicta aliquam assumenda, iure corrupti adipisci optio molestiae accusantium sed ducimus? Quasi sit autem quas nemo sint deleniti nisi ipsum aliquam necessitatibus et. Nulla architecto eveniet expedita obcaecati neque natus tempora rem quia quo voluptatibus sequi eos omnis, laborum consectetur dicta dolorum? Ut quas hic, modi tempore dolorum quia officia ratione animi asperiores rem repellat id aliquid totam omnis suscipit aperiam rerum corrupti debitis, fuga dicta, praesentium nesciunt? Iusto pariatur, consectetur magnam tempora obcaecati, deserunt maxime ullam atque totam aliquid dicta quidem dolores veritatis dolor autem sapiente assumenda? Maiores odio iusto a ducimus necessitatibus, minima nisi. Delectus fugiat dolorem consequuntur eveniet hic soluta eius iste, vel exercitationem nesciunt! Reiciendis voluptates ea laborum, temporibus, velit aliquid omnis officia quam recusandae dolore perspiciatis ipsum libero! Veritatis ipsam rerum dignissimos ex! Atque magnam eaque tempora fugiat est ullam aut aspernatur explicabo doloremque? Porro voluptatibus, asperiores, officia cupiditate perferendis sapiente aperiam amet aliquid deserunt quos mollitia eligendi hic voluptates maiores autem nisi tempora dolor odio voluptatum sunt officiis earum reiciendis voluptas optio! Non perspiciatis ad deleniti accusantium obcaecati at aliquam illum. Ex accusantium quasi quidem consequuntur recusandae quia temporibus, totam quas laudantium laboriosam obcaecati cupiditate nisi! Natus distinctio unde dicta deleniti consequatur beatae nostrum nulla, earum veritatis quisquam reprehenderit voluptates dignissimos corporis maiores, magni vitae ducimus ex adipisci eum optio saepe dolore minima. Tempora suscipit quae fuga possimus libero earum eveniet sed perspiciatis obcaecati laudantium enim ea nihil sapiente iure hic molestias doloremque culpa rerum minima eaque, reprehenderit officia corrupti! Libero dignissimos mollitia et similique pariatur quod totam maiores, commodi sunt vel numquam repellat odio ut perspiciatis voluptatem excepturi autem. Dolores eveniet, vel dicta dolorem eaque quam nesciunt labore ducimus ab, pariatur velit atque aliquam id earum quia enim officiis cupiditate, nulla ratione explicabo ipsam laborum cumque? Ex quasi sequi qui blanditiis quidem nobis molestias beatae maiores laborum ipsa saepe minima, natus, rerum dolor voluptate modi unde? Dignissimos, repellendus quos, laboriosam nesciunt, eum unde nobis facilis officiis reiciendis perspiciatis totam dolore deleniti omnis eaque ad repudiandae ullam distinctio! Aperiam provident exercitationem ullam, eligendi iure perferendis quod voluptatibus! Voluptate quia laboriosam aperiam, ad, asperiores esse aspernatur adipisci itaque atque eaque sed quas, perspiciatis animi magnam illum cum vitae ex. Doloribus alias architecto pariatur nostrum? Dicta quod eius aliquam ipsum?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem laboriosam praesentium quibusdam debitis hic, cum
+        quaerat quasi reprehenderit minima non quisquam nesciunt deleniti nisi veniam ea dicta aliquam assumenda, iure
+        corrupti adipisci optio molestiae accusantium sed ducimus? Quasi sit autem quas nemo sint deleniti nisi ipsum
+        aliquam necessitatibus et. Nulla architecto eveniet expedita obcaecati neque natus tempora rem quia quo
+        voluptatibus sequi eos omnis, laborum consectetur dicta dolorum? Ut quas hic, modi tempore dolorum quia officia
+        ratione animi asperiores rem repellat id aliquid totam omnis suscipit aperiam rerum corrupti debitis, fuga
+        dicta, praesentium nesciunt? Iusto pariatur, consectetur magnam tempora obcaecati, deserunt maxime ullam atque
+
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

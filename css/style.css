@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(226, 48, 48);
+    background-color: rgb(255, 255, 255);
     font-family: 'Staatliches', cursive;    
 }
 header{
@@ -14,16 +14,16 @@ header:hover{
     background-color: white;
     transition: all .5s ease;
 }
-main{
-    background-color: green;
-}
 footer{
-    background-color: brown;
+    background-color: rgb(31, 31, 31);
 }
-section{
-    background-color: greenyellow;
+h3{
+    font-size: 20px;
 }
-.zurich{
+p{
+    font-size: 15px;
+}
+.meritz{
     font-family: 'Staatliches', cursive;
     color: rgb(0, 0, 0);
     font-size: 45px;
@@ -63,14 +63,16 @@ section{
 }
 .seasonal{
     background-image: url(../media/1412.jpg);
-    background-position: 50% 40%;
-    height: 90vh;
+    background-size: cover;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 70px;
-    color: rgb(83, 83, 83);
+    font-size: 65px;
+    color: rgb(255, 255, 255);
     font-style: italic;
+    margin: 0px;
+    padding: 0px;
 }
 .gifiado{
     width: 80px;
@@ -82,4 +84,28 @@ section{
     justify-content: center;
     align-items: center;
 }
-
+.indexado{
+    z-index: 0;
+}
+.indexado1{
+    z-index: 1;
+}
+.infoPago{
+    background-color: rgb(204, 204, 204);
+    height: 15vh;
+}
+.tarjetaCredito{
+    color: black;
+    width: 40px;
+}
+.informativo{
+    color: black;
+    width: 45px;
+}
+.infoColumnas{
+    display: flex;
+    justify-content: center;
+}
+.hackersman{
+    margin-top: 25px;
+}
