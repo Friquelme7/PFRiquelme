@@ -14,7 +14,7 @@ header:hover{
     background-color: white;
     transition: all .5s ease;
 }
-main{
+.cardinas{
     height: 80vh;
 }
 footer{
@@ -144,4 +144,63 @@ p{
 }
 .hijino:hover{
     backdrop-filter: blur(1.5px);
+}
+.galeria{
+width: 100%;
+height: 100%;
+}
+.contentillo{
+    display: flex;
+    justify-content: space-around;
+}
+.galeriaFont{
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+}
+.colores{
+    display: flex;
+    margin-top: 5px;
+}
+.circulos{
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: solid 2px #dbcfbb;
+    margin: 3px;
+}
+.colorway{
+    background-color: white;
+}
+.colorway1{
+    background-color: lightblue;
+}
+.colorway2{
+    background-color: lightcoral;
+}
+.ropa1{
+    background: rgb(255, 255, 255);
+    width: calc(25% - 10px);
+}
+.nombrePrenda{
+    font-size: 16px;
+    margin-top: 9px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.precios{
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 400;
+}
+.segundaColumna{
+    margin-top: 42px;
+}
+.decorado{
+    text-decoration: none;
+    color: black;
+}
+.ropaSeleccion:hover{
+    border: 1px lightgray solid;
+    transition: all .5s ease;
 }
