@@ -14,14 +14,19 @@ header:hover{
     background-color: white;
     transition: all .5s ease;
 }
+main{
+    height: 80vh;
+}
 footer{
     background-color: rgb(31, 31, 31);
 }
 h3{
     font-size: 20px;
+    font-family: 'Noto Sans Meroitic', sans-serif;
 }
 p{
     font-size: 15px;
+    font-family: 'Noto Sans Meroitic', sans-serif;
 }
 .meritz{
     font-family: 'Staatliches', cursive;
@@ -61,20 +66,7 @@ p{
 .linkLupa:hover{
     text-decoration: none;
 }
-.seasonal{
-    background-image: url(../media/1412.jpg);
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 65px;
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    margin: 0px;
-    padding: 0px;
-}
-.gifiado{
+.gif{
     width: 80px;
     margin-bottom: 17px;
 }
@@ -90,22 +82,66 @@ p{
 .indexado1{
     z-index: 1;
 }
+.newarrival{
+    width: 100%;
+    height: 100vh;
+    }
 .infoPago{
-    background-color: rgb(204, 204, 204);
-    height: 15vh;
+    background-color: #1a1a1a;
+    height: 17vh;
+    color: white;
 }
 .tarjetaCredito{
-    color: black;
     width: 40px;
+    fill: rgb(255, 255, 255);
 }
 .informativo{
-    color: black;
+    fill: rgb(255, 255, 255);
     width: 45px;
 }
 .infoColumnas{
     display: flex;
     justify-content: center;
 }
-.hackersman{
-    margin-top: 25px;
+.acomodar{
+    margin-top: 40px;
+}
+.hombre{
+    background-image: url(../media/men.PNG);
+    background-size: cover;
+    transition: transform .3s;
+}
+.mujer{
+    background-image: url(../media/women.PNG);
+    background-size: cover;
+    transition: transform .3s;
+}
+.accesorios{
+    background-image: url(../media/accesorios.PNG);
+    background-size: cover;
+    transition: transform .3s;
+}
+.hijino{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style:oblique;
+}
+.hombre:hover{
+    transform: scale(1.02)
+
+}
+.mujer:hover{
+    transform: scale(1.02)
+}
+.accesorios:hover{
+    transform: scale(1.02)
+}
+.txtSize{
+    font-size: 40px;
+
+}
+.hijino:hover{
+    backdrop-filter: blur(1.5px);
 }
