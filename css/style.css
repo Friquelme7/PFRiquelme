@@ -5,14 +5,18 @@
 }
 body{
     background-color: rgb(255, 255, 255);
-    font-family: 'Staatliches', cursive;    
+    font-family: 'Staatliches', cursive; 
 }
 header{
     background-color: rgba(255, 255, 255, 0);
+    width: 100%;
 }
 header:hover{
     background-color: white;
     transition: all .5s ease;
+}
+section, main, footer{
+    width: 100%;
 }
 .cardinas{
     height: 80vh;
@@ -68,6 +72,7 @@ li::marker{
     width: 29px; 
     height: 22px;
     margin-bottom: 5px;
+    margin-left: 5px;
 }
 .linkLupa{
     text-decoration: none;
@@ -92,9 +97,12 @@ li::marker{
 .indexado1{
     z-index: 1;
 }
+.bordeHeader{
+    border-bottom: 2px lightcoral solid;
+}
 .newarrival{
     width: 100%;
-    height: 100vh;
+    height: auto;
     }
 .infoPago{
     background-color: #1a1a1a;
@@ -120,16 +128,19 @@ li::marker{
     background-image: url(../media/men.PNG);
     background-size: cover;
     transition: transform .3s;
+    background-position: center;
 }
 .mujer{
     background-image: url(../media/women.PNG);
     background-size: cover;
     transition: transform .3s;
+    background-position: center;
 }
 .accesorios{
     background-image: url(../media/accesorios.PNG);
     background-size: cover;
     transition: transform .3s;
+    background-position: center;
 }
 .hijino{
     width: 100%;
@@ -209,6 +220,8 @@ height: 100%;
 .decorado{
     text-decoration: none;
     color: black;
+    padding: 10px;
+    width: 80%;
 }
 .ropaSeleccion:hover{
     border: 1px lightgray solid;
@@ -227,11 +240,13 @@ height: 100%;
     height: 45px;
     border-radius: 0%;
 }
+.enviar{
+    width: 350px;
+}
 .botonColor{
     background-color: #dbcfbb;
     color: black;
     border-radius: 0%;
-    width: 350px;
     height: 45px;
     font-size: 22px;
 
@@ -330,4 +345,26 @@ height: 100%;
 .correoelec{
     font-weight: 100;
     font-family: 'Noto Sans Meroitic', sans-serif;
+}
+.fondiño{
+    background-color: rgba(209, 12, 12, 0); 
+}
+.title{
+    font-size: 40px;
+}
+@media (max-width:768px){
+    .cajinas{
+        width: 45%;
+        height: 260px;
+    }
+
+}
+@media (max-width:990px){
+    .tamano{ 
+        width: 100%;
+    }
+    .enviar{
+        width: 100%;
+        padding: 0;
+    }
 }
