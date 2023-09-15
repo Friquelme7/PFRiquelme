@@ -11,6 +11,10 @@ header{
     background-color: rgba(255, 255, 255, 0);
     width: 100%;
 }
+.navBg{
+    background-color: rgba(255, 255, 255, 0);
+    
+}
 header:hover{
     background-color: white;
     transition: all .5s ease;
@@ -47,7 +51,6 @@ li::marker{
     color: rgb(0, 0, 0);
     font-size: 45px;
     font-weight: 600;
-    margin-right: 30px;
 
 }
 .decoracion{
@@ -63,10 +66,7 @@ li::marker{
     width: auto;
 }
 .cajaFlex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
+    height: 10vh;
 }
 .lupita{
     width: 29px; 
@@ -83,13 +83,6 @@ li::marker{
 }
 .gif{
     width: 80px;
-    margin-bottom: 17px;
-}
-.cajita2{
-    display: flex;
-    flex-grow: 3;
-    justify-content: center;
-    align-items: center;
 }
 .indexado{
     z-index: 0;
@@ -210,6 +203,7 @@ height: 100%;
     font-weight: 600;
 }
 .precios{
+    font-family:'Noto Sans Meroitic', sans-serif;
     font-size: 16px;
     margin: 0px;
     font-weight: 400;
@@ -219,9 +213,11 @@ height: 100%;
 }
 .decorado{
     text-decoration: none;
-    color: black;
-    padding: 10px;
-    width: 80%;
+    color: rgb(0, 0, 0);
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    width: auto;
 }
 .ropaSeleccion:hover{
     border: 1px lightgray solid;
@@ -361,9 +357,25 @@ height: 100%;
 .marginFormulario{
     margin-bottom: 60px;
 }
+.pruebiña{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.pruebiña:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
 @media (max-width:576px){
     .newarrival{
         height: 42vh;
+    }
+    .cajaLink{
+        width: 25px;
+    }
+    .iconos{
+        width: 25px;
     }
 }
 @media (max-width:795px){
