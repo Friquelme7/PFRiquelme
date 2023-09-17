@@ -385,7 +385,7 @@ height: 100%;
     }
 
 }
-@media (max-width:990px){
+@media (max-width:992px){
     .tamano{ 
         width: 100%;
     }
@@ -393,4 +393,14 @@ height: 100%;
         width: 100%;
         padding: 0;
     }
+    .hombre{
+        background-position: 50% 7%;
+    }
+    .mujer{
+        background-position: 50% 7%;
+    }
+    .accesorios{
+        background-position: 50% 75%;
+    }
 }
+
