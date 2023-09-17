@@ -192,6 +192,15 @@ height: 100%;
 .colorway2{
     background-color: lightcoral;
 }
+.colorway3{
+    background-color: #9b564d;
+}
+.colorway4{
+    background-color: rgb(187, 178, 178);
+}
+.colorway5{
+    background-color: rgb(18, 65, 109);
+}
 .ropa1{
     background: rgb(255, 255, 255);
     width: calc(25% - 10px);
