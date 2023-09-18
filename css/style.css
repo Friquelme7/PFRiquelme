@@ -376,6 +376,9 @@ height: 100%;
     box-shadow: none;
     border: none;
 }
+.linkeo{
+    text-decoration: none;
+}
 @media (max-width:576px){
     .newarrival{
         height: 42vh;
