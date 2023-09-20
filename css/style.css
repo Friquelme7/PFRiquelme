@@ -5,11 +5,37 @@
   box-sizing: border-box;
 }
 
-header .indexado1 {
+.indexado1 {
   z-index: 1;
 }
-header div a .linkeo {
+.indexado1 .cajaFlex {
+  height: 10vh;
+}
+.indexado1 .cajaFlex .linkeo {
   text-decoration: none;
+}
+.indexado1 .cajaFlex .linkeo .gif {
+  width: 80px;
+}
+.indexado1 .cajaFlex .linkeo .meritz {
+  font-family: "Staatliches", cursive;
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  font-weight: 600;
+}
+.indexado1 .cajaFlex .navBg {
+  background-color: rgba(255, 255, 255, 0);
+}
+.indexado1 .cajaFlex .navBg div .pruebiña {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.indexado1 .cajaFlex div .cajaLink {
+  width: auto;
+}
+.indexado1 .cajaFlex div .cajaLink .iconos {
+  width: 25px;
 }
 
 body {
@@ -67,27 +93,12 @@ li::marker {
   font-size: 0px;
 }
 
-.meritz {
-  font-family: "Staatliches", cursive;
-  color: rgb(0, 0, 0);
-  font-size: 45px;
-  font-weight: 600;
-}
-
 .decoracion {
   color: black;
 }
 
 .decoracion:hover {
   color: rgb(0, 0, 0);
-}
-
-.iconos {
-  width: 29px;
-}
-
-.cajaLink {
-  width: auto;
 }
 
 .cajaFlex {
@@ -108,10 +119,6 @@ li::marker {
 
 .linkLupa:hover {
   text-decoration: none;
-}
-
-.gif {
-  width: 80px;
 }
 
 .indexado {
@@ -458,22 +465,6 @@ li::marker {
 
 .marginFormulario {
   margin-bottom: 60px;
-}
-
-.pruebiña {
-  outline: none;
-  box-shadow: none;
-  border: none;
-}
-
-.pruebiña:focus {
-  outline: none;
-  box-shadow: none;
-  border: none;
-}
-
-.linkeo {
-  text-decoration: none;
 }
 
 @media (max-width: 576px) {
