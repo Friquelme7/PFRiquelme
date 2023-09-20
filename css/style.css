@@ -38,6 +38,60 @@
   width: 25px;
 }
 
+footer .meritzFooter {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+footer .meritzFooter .footerMeritz {
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+}
+footer .navFooter {
+  margin-top: 40px;
+  font-family: "Noto Sans Meroitic", sans-serif;
+}
+footer .navFooter .footerTitle {
+  font-weight: 600;
+}
+footer .navFooter .showoff {
+  margin-top: 0px;
+  list-style-type: none;
+}
+footer .navFooter .showoff .navFooterItem {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+footer .navFooter {
+  margin-top: 40px;
+  font-family: "Noto Sans Meroitic", sans-serif;
+}
+footer .navFooter .footerTitle {
+  font-weight: 600;
+}
+footer .navFooter .direInfo {
+  margin-top: 25px;
+}
+footer .navFooter {
+  margin-top: 40px;
+  font-family: "Noto Sans Meroitic", sans-serif;
+}
+footer .navFooter .footerTitle {
+  font-weight: 600;
+}
+footer .navFooter .dataFiscal {
+  width: 80px;
+}
+footer div .tarjetasFooter {
+  width: 50px;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+}
+footer div .tarjetasFooter1 {
+  width: 60px;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+}
+
 body {
   background-color: rgb(255, 255, 255);
   font-family: "Staatliches", cursive;
@@ -392,58 +446,8 @@ li::marker {
   margin-bottom: 30px;
 }
 
-.footerMeritz {
-  font-family: "Caveat", cursive;
-  font-size: 50px;
-}
-
-.dataFiscal {
-  width: 80px;
-}
-
-.meritzFooter {
-  margin-top: 0px;
-  margin-left: 0px;
-}
-
-.navFooter {
-  margin-top: 40px;
-  font-family: "Noto Sans Meroitic", sans-serif;
-}
-
-.navFooterItem {
-  margin-top: 10px;
-  margin-bottom: 15px;
-}
-
-.showoff {
-  margin-top: 0px;
-  list-style-type: none;
-}
-
-.tarjetasFooter {
-  width: 50px;
-  border: 1px lightgray solid;
-  border-radius: 5px;
-}
-
-.tarjetasFooter1 {
-  width: 60px;
-  border: 1px lightgray solid;
-  border-radius: 5px;
-}
-
-.FooterTitle {
-  font-weight: 600;
-  margin: 5;
-}
-
 .direccion {
   flex-grow: 2;
-}
-
-.direInfo {
-  margin-top: 25px;
 }
 
 .correoelec {
