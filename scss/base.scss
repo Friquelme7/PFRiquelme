@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import "_header";
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+}
+
+.navBg {
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+header:hover {
+    background-color: white;
+    transition: all .5s ease;
+}
+
+section,
+main,
+footer {
+    width: 100%;
+}
+
+.cardinas {
+    height: 80vh;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border-top: 1px solid lightgray;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Noto Sans Meroitic', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Noto Sans Meroitic', sans-serif;
+}
+
+li,
+ul a {
+    text-decoration: none;
+    color: black;
+
+}
+
+li::marker {
+    font-size: 0px;
+}
+
+.meritz {
+    font-family: 'Staatliches', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.decoracion {
+    color: black;
+}
+
+.decoracion:hover {
+    color: rgb(0, 0, 0);
+}
+
+.iconos {
+    width: 29px;
+}
+
+.cajaLink {
+    width: auto;
+}
+
+.cajaFlex {
+    height: 10vh;
+}
+
+.lupita {
+    width: 29px;
+    height: 22px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.linkLupa {
+    text-decoration: none;
+    color: black;
+}
+
+.linkLupa:hover {
+    text-decoration: none;
+}
+
+.gif {
+    width: 80px;
+}
+
+.indexado {
+    z-index: 0;
+}
+
+
+.bordeHeader {
+    border-bottom: 2px lightcoral solid;
+}
+
+.newarrival {
+    width: 100%;
+    height: 95vh;
+}
+
+.infoPago {
+    background-color: #1a1a1a;
+    height: 17vh;
+    color: white;
+}
+
+.tarjetaCredito {
+    width: 40px;
+    fill: rgb(255, 255, 255);
+}
+
+.informativo {
+    fill: rgb(255, 255, 255);
+    width: 40px;
+}
+
+.infoColumnas {
+    display: flex;
+    justify-content: center;
+}
+
+.acomodar {
+    margin-top: 40px;
+}
+
+.hombre {
+    background-image: url(../media/men.PNG);
+    background-size: cover;
+    transition: transform .3s;
+    background-position: center;
+}
+
+.mujer {
+    background-image: url(../media/women.PNG);
+    background-size: cover;
+    transition: transform .3s;
+    background-position: center;
+}
+
+.accesorios {
+    background-image: url(../media/accesorios.PNG);
+    background-size: cover;
+    transition: transform .3s;
+    background-position: center;
+}
+
+.hijino {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+}
+
+.hombre:hover {
+    transform: scale(1.02)
+}
+
+.mujer:hover {
+    transform: scale(1.02)
+}
+
+.accesorios:hover {
+    transform: scale(1.02)
+}
+
+.txtSize {
+    font-size: 40px;
+
+}
+
+.hijino:hover {
+    backdrop-filter: blur(1.5px);
+}
+
+.galeria {
+    width: 100%;
+    height: 100%;
+}
+
+.contentillo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.galeriaFont {
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+}
+
+.colores {
+    display: flex;
+    margin-top: 5px;
+}
+
+.circulos {
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: solid 2px #dbcfbb;
+    margin: 3px;
+}
+
+.colorway {
+    background-color: white;
+}
+
+.colorway1 {
+    background-color: lightblue;
+}
+
+.colorway2 {
+    background-color: lightcoral;
+}
+
+.colorway3 {
+    background-color: #9b564d;
+}
+
+.colorway4 {
+    background-color: rgb(187, 178, 178);
+}
+
+.colorway5 {
+    background-color: rgb(18, 65, 109);
+}
+
+.ropa1 {
+    background: rgb(255, 255, 255);
+    width: calc(25% - 10px);
+}
+
+.nombrePrenda {
+    font-size: 16px;
+    margin-top: 9px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.precios {
+    font-family: 'Noto Sans Meroitic', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.segundaColumna {
+    margin-top: 42px;
+}
+
+.decorado {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    width: auto;
+}
+
+.ropaSeleccion:hover {
+    border: 1px lightgray solid;
+    transition: all .5s ease;
+}
+
+.newsletter {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.flecha {
+    width: 60px;
+    font-size: 30px;
+}
+
+.tamano {
+    width: 400px;
+    height: 45px;
+    border-radius: 0%;
+}
+
+.enviar {
+    width: 350px;
+}
+
+.botonColor {
+    background-color: #dbcfbb;
+    color: black;
+    border-radius: 0%;
+    height: 45px;
+    font-size: 22px;
+
+}
+
+.botonColor:hover {
+    opacity: 90%;
+    background-color: #dbcfbb;
+    color: black;
+}
+
+.newsTitle {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cajinas {
+    width: 360px;
+    height: 560px;
+}
+
+.fondoRedes {
+    background-image: url(../media/redes.PNG);
+    background-size: cover;
+}
+
+.fondoRedes1 {
+    background-image: url(../media/redes1.PNG);
+    background-size: cover;
+}
+
+.fondoRedes2 {
+    background-image: url(../media/redes2.PNG);
+    background-size: cover;
+}
+
+.fondoRedes3 {
+    background-image: url(../media/redes3.PNG);
+    background-size: cover;
+}
+
+.fb,
+.tiktok,
+.tw,
+.ig {
+    width: 90px;
+    height: 90px;
+    fill: white;
+}
+
+.redes {
+    width: 100%;
+    height: 100%;
+}
+
+.redes:hover {
+    backdrop-filter: brightness(60%);
+}
+
+.separacion {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footerMeritz {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+}
+
+.dataFiscal {
+    width: 80px;
+}
+
+.meritzFooter {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.navFooter {
+    margin-top: 40px;
+    font-family: 'Noto Sans Meroitic', sans-serif;
+}
+
+.navFooterItem {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.showoff {
+    margin-top: 0px;
+    list-style-type: none;
+}
+
+.tarjetasFooter {
+    width: 50px;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+}
+
+.tarjetasFooter1 {
+    width: 60px;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+}
+
+.FooterTitle {
+    font-weight: 600;
+    margin: 5;
+}
+
+.direccion {
+    flex-grow: 2;
+}
+
+.direInfo {
+    margin-top: 25px;
+}
+
+.correoelec {
+    font-weight: 100;
+    font-family: 'Noto Sans Meroitic', sans-serif;
+}
+
+.fondiño {
+    background-color: rgba(209, 12, 12, 0);
+}
+
+.title {
+    font-size: 40px;
+}
+
+.carrouselMobile {
+    margin-bottom: 0px;
+}
+
+.marginFormulario {
+    margin-bottom: 60px;
+}
+
+.pruebiña {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.pruebiña:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.linkeo {
+    text-decoration: none;
+}
+
+@media (max-width:576px) {
+    .newarrival {
+        height: 42vh;
+    }
+
+    .cajaLink {
+        width: 25px;
+    }
+
+    .iconos {
+        width: 25px;
+    }
+}
+
+@media (max-width:795px) {
+    .cajinas {
+        width: 45%;
+        height: 320px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .tamano {
+        width: 100%;
+    }
+
+    .enviar {
+        width: 100%;
+        padding: 0;
+    }
+
+    .hombre {
+        background-position: 50% 7%;
+    }
+
+    .mujer {
+        background-position: 50% 7%;
+    }
+
+    .accesorios {
+        background-position: 50% 75%;
+    }
+}
