@@ -1,0 +1,9 @@
+@mixin subtituloFooter(){
+    margin-top: 40px;
+    font-family: 'Noto Sans Meroitic', sans-serif;
+}
+@mixin tarjetasFooter($tamano){
+    width: $tamano;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+}

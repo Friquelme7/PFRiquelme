@@ -4,7 +4,7 @@ footer {
         margin-left: 0px;
 
         .footerMeritz {
-            font-family: "Caveat", cursive;
+            font-family: $tipografiaLogoFooter;
             font-size: 50px;
         }
     }
@@ -29,8 +29,7 @@ footer {
     }
 
     .navFooter {
-        margin-top: 40px;
-        font-family: 'Noto Sans Meroitic', sans-serif;
+        @include subtituloFooter;
 
         .footerTitle {
             font-weight: 600;
@@ -41,8 +40,7 @@ footer {
         }
     }
     .navFooter{
-        margin-top: 40px;
-        font-family: 'Noto Sans Meroitic', sans-serif;
+        @include subtituloFooter;
 
         .footerTitle {
             font-weight: 600;
@@ -53,14 +51,10 @@ footer {
     }
     div{
         .tarjetasFooter{
-            width: 50px;
-            border: 1px lightgray solid;
-            border-radius: 5px;
+            @include tarjetasFooter(50px)
         }
         .tarjetasFooter1{
-            width: 60px;
-            border: 1px lightgray solid;
-            border-radius: 5px;
+            @include tarjetasFooter(60px)
         }
     }
 }

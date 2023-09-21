@@ -12,7 +12,7 @@
             }
 
             .meritz {
-                font-family: "Staatliches", cursive;
+                font-family: $tipografiaLogo;
                 color: rgb(0, 0, 0);
                 font-size: 45px;
                 font-weight: 600;
@@ -23,7 +23,7 @@
             background-color: rgba(255, 255, 255, 0);
 
             div {
-                .pruebiña {
+                .decoradoBoton {
                     outline: none;
                     box-shadow: none;
                     border: none;
