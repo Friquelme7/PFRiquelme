@@ -1,0 +1,87 @@
+main {
+    section {
+        .indexado {
+            z-index: 0;
+
+            div {
+                div {
+                    .newarrival {
+                        width: 100%;
+                        height: 95vh;
+                    }
+                }
+            }
+        }
+    }
+
+    .infoPago {
+        background-color: #1a1a1a;
+        height: 17vh;
+        color: white;
+
+        .infoColumnas {
+            display: flex;
+            justify-content: center;
+
+            div {
+                .tarjetaCredito {
+                    width: 40px;
+                    fill: rgb(255, 255, 255);
+                }
+            }
+
+            .acomodar {
+                margin-top: 40px;
+            }
+        }
+
+        .informativo {
+            fill: rgb(255, 255, 255);
+            width: 40px;
+        }
+
+        .tarjetaCredito {
+            width: 40px;
+            fill: rgb(255, 255, 255);
+        }
+
+        .acomodar {
+            margin-top: 40px;
+        }
+    }
+
+    .cardinas {
+        height: 80vh;
+
+        .hombre {
+            background-image: url(../media/men.PNG);
+            background-size: cover;
+            transition: transform .3s;
+            background-position: center;
+            
+        }
+        .mujer{
+            background-image: url(../media/women.PNG);
+            background-size: cover;
+            transition: transform .3s;
+            background-position: center;
+        }
+        .accesorios{
+            background-image: url(../media/accesorios.PNG);
+            background-size: cover;
+            transition: transform .3s;
+            background-position: center;
+        }
+        .hijino {
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-style: oblique;
+        
+            .txtSize {
+                font-size: 40px;
+            }
+        }
+    }
+}

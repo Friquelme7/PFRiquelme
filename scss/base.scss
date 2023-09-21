@@ -3,6 +3,8 @@
 @import"_generales";
 @import "_header";
 @import "_footer";
+@import "_index";
+@import "_indexmobile";
 
 * {
     margin: 0;
@@ -35,9 +37,6 @@ footer {
     width: 100%;
 }
 
-.cardinas {
-    height: 80vh;
-}
 
 footer {
     background-color: #ffffff;
@@ -94,73 +93,10 @@ li::marker {
     text-decoration: none;
 }
 
-.indexado {
-    z-index: 0;
-}
-
-
 .bordeHeader {
     border-bottom: 2px lightcoral solid;
 }
 
-.newarrival {
-    width: 100%;
-    height: 95vh;
-}
-
-.infoPago {
-    background-color: #1a1a1a;
-    height: 17vh;
-    color: white;
-}
-
-.tarjetaCredito {
-    width: 40px;
-    fill: rgb(255, 255, 255);
-}
-
-.informativo {
-    fill: rgb(255, 255, 255);
-    width: 40px;
-}
-
-.infoColumnas {
-    display: flex;
-    justify-content: center;
-}
-
-.acomodar {
-    margin-top: 40px;
-}
-
-.hombre {
-    background-image: url(../media/men.PNG);
-    background-size: cover;
-    transition: transform .3s;
-    background-position: center;
-}
-
-.mujer {
-    background-image: url(../media/women.PNG);
-    background-size: cover;
-    transition: transform .3s;
-    background-position: center;
-}
-
-.accesorios {
-    background-image: url(../media/accesorios.PNG);
-    background-size: cover;
-    transition: transform .3s;
-    background-position: center;
-}
-
-.hijino {
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-style: oblique;
-}
 
 .hombre:hover {
     transform: scale(1.02)
@@ -174,10 +110,6 @@ li::marker {
     transform: scale(1.02)
 }
 
-.txtSize {
-    font-size: 40px;
-
-}
 
 .hijino:hover {
     backdrop-filter: blur(1.5px);
@@ -398,10 +330,6 @@ li::marker {
 
 
 @media (max-width:576px) {
-    .newarrival {
-        height: 42vh;
-    }
-
     .cajaLink {
         width: 25px;
     }
