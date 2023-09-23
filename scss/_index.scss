@@ -58,29 +58,116 @@ main {
             background-size: cover;
             transition: transform .3s;
             background-position: center;
-            
+
         }
-        .mujer{
+
+        .mujer {
             background-image: url(../media/women.PNG);
             background-size: cover;
             transition: transform .3s;
             background-position: center;
         }
-        .accesorios{
+
+        .accesorios {
             background-image: url(../media/accesorios.PNG);
             background-size: cover;
             transition: transform .3s;
             background-position: center;
         }
+
         .hijino {
             width: 100%;
             height: 100%;
             text-decoration: none;
             color: rgb(255, 255, 255);
             font-style: oblique;
-        
+
             .txtSize {
                 font-size: 40px;
+            }
+        }
+    }
+
+    section {
+        div {
+            div {
+                .ropaSeleccion {
+
+                    &:hover {
+                        border: 1px lightgray solid;
+                        transition: all .5s ease;
+                    }
+
+                    .decorado {
+                        text-decoration: none;
+                        color: rgb(0, 0, 0);
+                        font-family: 'Staatliches', cursive;
+                        font-weight: 400;
+                        font-size: 20px;
+                        width: auto;
+
+                        div {
+                            .galeria {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+
+                        div {
+                            .nombrePrenda {
+                                font-size: 16px;
+                                margin-top: 9px;
+                                margin-bottom: 0px;
+                                font-weight: 600;
+                            }
+
+                            .precios {
+                                font-family: 'Noto Sans Meroitic', sans-serif;
+                                font-size: 16px;
+                                margin: 0px;
+                                font-weight: 400;
+                            }
+
+                            .colores {
+                                display: flex;
+                                margin-top: 5px;
+
+                                .circulos {
+                                    background-color: black;
+                                    width: 16px;
+                                    height: 16px;
+                                    border-radius: 100%;
+                                    border: solid 2px #dbcfbb;
+                                    margin: 3px;
+                                }
+
+                                .colorway {
+                                    background-color: white;
+                                }
+
+                                .colorway1 {
+                                    background-color: lightblue;
+                                }
+
+                                .colorway2 {
+                                    background-color: lightcoral;
+                                }
+
+                                .colorway3 {
+                                    background-color: #9b564d;
+                                }
+
+                                .colorway4 {
+                                    background-color: rgb(187, 178, 178);
+                                }
+
+                                .colorway5 {
+                                    background-color: rgb(18, 65, 109);
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
