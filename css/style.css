@@ -211,6 +211,47 @@ main section div div .ropaSeleccion .decorado div .colores .colorway4 {
 main section div div .ropaSeleccion .decorado div .colores .colorway5 {
   background-color: rgb(18, 65, 109);
 }
+main section .newsletter {
+  background-color: #1a1a1a;
+  color: white;
+}
+main section .newsletter .newsTitle {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 600;
+}
+main section .newsletter .subtitle {
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+main section .newsletter .marginFormulario {
+  margin-bottom: 60px;
+}
+main section .newsletter .marginFormulario .correoelec {
+  font-weight: 100;
+  font-family: "Noto Sans Meroitic", sans-serif;
+}
+main section .newsletter .marginFormulario .correoelec .tamano {
+  width: 400px;
+  height: 45px;
+  border-radius: 0%;
+}
+main section .newsletter .marginFormulario .botonColor {
+  background-color: #dbcfbb;
+  color: black;
+  border-radius: 0%;
+  height: 45px;
+  font-size: 22px;
+}
+main section .newsletter .marginFormulario .botonColor:hover {
+  opacity: 90%;
+  background-color: #dbcfbb;
+  color: black;
+}
+main section .newsletter .marginFormulario .enviar {
+  width: 350px;
+}
 
 @media (max-width: 576px) {
   main section .indexado {
@@ -345,50 +386,9 @@ li::marker {
   margin-top: 42px;
 }
 
-.newsletter {
-  background-color: #1a1a1a;
-  color: white;
-}
-
 .flecha {
   width: 60px;
   font-size: 30px;
-}
-
-.tamano {
-  width: 400px;
-  height: 45px;
-  border-radius: 0%;
-}
-
-.enviar {
-  width: 350px;
-}
-
-.botonColor {
-  background-color: #dbcfbb;
-  color: black;
-  border-radius: 0%;
-  height: 45px;
-  font-size: 22px;
-}
-
-.botonColor:hover {
-  opacity: 90%;
-  background-color: #dbcfbb;
-  color: black;
-}
-
-.newsTitle {
-  font-size: 50px;
-  font-style: italic;
-  font-weight: 600;
-}
-
-.subtitle {
-  font-size: 15px;
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 
 .cajinas {
@@ -443,11 +443,6 @@ li::marker {
   flex-grow: 2;
 }
 
-.correoelec {
-  font-weight: 100;
-  font-family: "Noto Sans Meroitic", sans-serif;
-}
-
 .fondiño {
   background-color: rgba(209, 12, 12, 0);
 }
@@ -458,10 +453,6 @@ li::marker {
 
 .carrouselMobile {
   margin-bottom: 0px;
-}
-
-.marginFormulario {
-  margin-bottom: 60px;
 }
 
 @media (max-width: 576px) {

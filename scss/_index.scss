@@ -87,7 +87,6 @@ main {
             }
         }
     }
-
     section {
         div {
             div {
@@ -168,6 +167,54 @@ main {
                         }
                     }
                 }
+            }
+        }
+    }
+    section{
+        .newsletter{
+            background-color: #1a1a1a;
+            color: white;
+
+            .newsTitle{
+                font-size: 50px;
+                font-style: italic;
+                font-weight: 600;
+            }
+            .subtitle{
+                font-size: 15px;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            .marginFormulario{
+                margin-bottom: 60px;
+                
+                .correoelec{
+                    font-weight: 100;
+                    font-family: 'Noto Sans Meroitic', sans-serif;
+
+                    .tamano{
+                        width: 400px;
+                        height: 45px;
+                        border-radius: 0%;
+                    }
+                }
+                .botonColor{
+                    background-color: #dbcfbb;
+                    color: black;
+                    border-radius: 0%;
+                    height: 45px;
+                    font-size: 22px;
+
+                    &:hover{
+                        opacity: 90%;
+                        background-color: #dbcfbb;
+                        color: black;
+                    }
+                }
+                .enviar{
+                    width: 350px;
+                }
+                
             }
         }
     }
