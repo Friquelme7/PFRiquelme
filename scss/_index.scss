@@ -87,6 +87,7 @@ main {
             }
         }
     }
+
     section {
         div {
             div {
@@ -170,52 +171,104 @@ main {
             }
         }
     }
-    section{
-        .newsletter{
+
+    section {
+        .newsletter {
             background-color: #1a1a1a;
             color: white;
 
-            .newsTitle{
+            .newsTitle {
                 font-size: 50px;
                 font-style: italic;
                 font-weight: 600;
             }
-            .subtitle{
+
+            .subtitle {
                 font-size: 15px;
                 margin-bottom: 20px;
                 margin-top: 20px;
             }
-            .marginFormulario{
+
+            .marginFormulario {
                 margin-bottom: 60px;
-                
-                .correoelec{
+
+                .correoelec {
                     font-weight: 100;
                     font-family: 'Noto Sans Meroitic', sans-serif;
 
-                    .tamano{
+                    .tamano {
                         width: 400px;
                         height: 45px;
                         border-radius: 0%;
                     }
                 }
-                .botonColor{
+
+                .botonColor {
                     background-color: #dbcfbb;
                     color: black;
                     border-radius: 0%;
                     height: 45px;
                     font-size: 22px;
 
-                    &:hover{
+                    &:hover {
                         opacity: 90%;
                         background-color: #dbcfbb;
                         color: black;
                     }
                 }
-                .enviar{
+
+                .enviar {
                     width: 350px;
                 }
-                
+
             }
         }
     }
+
+    section {
+        .separacion {
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            .fondoRedes {
+                background-image: url(../media/redes.PNG);
+                background-size: cover;
+            }
+
+            .cajinas {
+                width: 360px;
+                height: 560px;
+
+                .redes {
+                    width: 100%;
+                    height: 100%;
+                    &:hover {
+                        backdrop-filter: brightness(60%);
+                    }
+
+                    .fb {
+                        width: 90px;
+                        height: 90px;
+                        fill: white;
+                    }
+                }
+            }
+
+            .fondoRedes1 {
+                background-image: url(../media/redes1.PNG);
+                background-size: cover;
+            }
+
+            .fondoRedes2 {
+                background-image: url(../media/redes2.PNG);
+                background-size: cover;
+            }
+
+            .fondoRedes3 {
+                background-image: url(../media/redes3.PNG);
+                background-size: cover;
+            }
+        }
+    }
+
 }

@@ -21,10 +21,6 @@ header {
     width: 100%;
 }
 
-.navBg {
-    background-color: rgba(255, 255, 255, 0);
-
-}
 
 header:hover {
     background-color: white;
@@ -64,13 +60,6 @@ ul a {
 li::marker {
     font-size: 0px;
 }
-.decoracion {
-    color: black;
-}
-
-.decoracion:hover {
-    color: rgb(0, 0, 0);
-}
 
 
 .cajaFlex {
@@ -105,16 +94,13 @@ li::marker {
 .mujer:hover {
     transform: scale(1.02)
 }
-
 .accesorios:hover {
     transform: scale(1.02)
 }
 
-
 .hijino:hover {
     backdrop-filter: blur(1.5px);
 }
-
 
 .contentillo {
     display: flex;
@@ -131,64 +117,14 @@ li::marker {
     width: calc(25% - 10px);
 }
 
-
 .segundaColumna {
     margin-top: 42px;
 }
 
 
-
 .flecha {
     width: 60px;
     font-size: 30px;
-}
-
-.cajinas {
-    width: 360px;
-    height: 560px;
-}
-
-.fondoRedes {
-    background-image: url(../media/redes.PNG);
-    background-size: cover;
-}
-
-.fondoRedes1 {
-    background-image: url(../media/redes1.PNG);
-    background-size: cover;
-}
-
-.fondoRedes2 {
-    background-image: url(../media/redes2.PNG);
-    background-size: cover;
-}
-
-.fondoRedes3 {
-    background-image: url(../media/redes3.PNG);
-    background-size: cover;
-}
-
-.fb,
-.tiktok,
-.tw,
-.ig {
-    width: 90px;
-    height: 90px;
-    fill: white;
-}
-
-.redes {
-    width: 100%;
-    height: 100%;
-}
-
-.redes:hover {
-    backdrop-filter: brightness(60%);
-}
-
-.separacion {
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .direccion {
@@ -205,51 +141,4 @@ li::marker {
 
 .carrouselMobile {
     margin-bottom: 0px;
-}
-
-
-
-
-
-
-
-@media (max-width:576px) {
-    .cajaLink {
-        width: 25px;
-    }
-
-    .iconos {
-        width: 25px;
-    }
-}
-
-@media (max-width:795px) {
-    .cajinas {
-        width: 45%;
-        height: 320px;
-    }
-
-}
-
-@media (max-width:992px) {
-    .tamano {
-        width: 100%;
-    }
-
-    .enviar {
-        width: 100%;
-        padding: 0;
-    }
-
-    .hombre {
-        background-position: 50% 7%;
-    }
-
-    .mujer {
-        background-position: 50% 7%;
-    }
-
-    .accesorios {
-        background-position: 50% 75%;
-    }
 }

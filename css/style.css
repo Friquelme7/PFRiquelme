@@ -252,6 +252,42 @@ main section .newsletter .marginFormulario .botonColor:hover {
 main section .newsletter .marginFormulario .enviar {
   width: 350px;
 }
+main section .separacion {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main section .separacion .fondoRedes {
+  background-image: url(../media/redes.PNG);
+  background-size: cover;
+}
+main section .separacion .cajinas {
+  width: 360px;
+  height: 560px;
+}
+main section .separacion .cajinas .redes {
+  width: 100%;
+  height: 100%;
+}
+main section .separacion .cajinas .redes:hover {
+  backdrop-filter: brightness(60%);
+}
+main section .separacion .cajinas .redes .fb {
+  width: 90px;
+  height: 90px;
+  fill: white;
+}
+main section .separacion .fondoRedes1 {
+  background-image: url(../media/redes1.PNG);
+  background-size: cover;
+}
+main section .separacion .fondoRedes2 {
+  background-image: url(../media/redes2.PNG);
+  background-size: cover;
+}
+main section .separacion .fondoRedes3 {
+  background-image: url(../media/redes3.PNG);
+  background-size: cover;
+}
 
 @media (max-width: 576px) {
   main section .indexado {
@@ -260,6 +296,70 @@ main section .newsletter .marginFormulario .enviar {
   main section .indexado div div .newarrival {
     width: 100%;
     height: 42vh;
+  }
+}
+@media (max-width: 795px) {
+  main section .separacion {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  main section .separacion .cajinas {
+    width: 45%;
+    height: 320px;
+  }
+}
+@media (max-width: 992px) {
+  main section .newsletter {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  main section .newsletter .newsTitle {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 600;
+  }
+  main section .newsletter .subtitle {
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  main section .newsletter .marginFormulario {
+    margin-bottom: 60px;
+  }
+  main section .newsletter .marginFormulario .correoelec {
+    font-weight: 100;
+    font-family: "Noto Sans Meroitic", sans-serif;
+  }
+  main section .newsletter .marginFormulario .correoelec .tamano {
+    width: 100%;
+  }
+  main section .newsletter .marginFormulario .botonColor {
+    background-color: #dbcfbb;
+    color: black;
+    border-radius: 0%;
+    height: 45px;
+    font-size: 22px;
+  }
+  main section .newsletter .marginFormulario .botonColor:hover {
+    opacity: 90%;
+    background-color: #dbcfbb;
+    color: black;
+  }
+  main section .newsletter .marginFormulario .enviar {
+    width: 100%;
+    padding: 0;
+  }
+  main .cardinas {
+    height: 80vh;
+  }
+  main .cardinas .hombre {
+    background-position: 50% 7%;
+  }
+  main .cardinas .mujer {
+    background-position: 50% 7%;
+  }
+  main .cardinas .accesorios {
+    background-position: 50% 75%;
   }
 }
 * {
@@ -276,10 +376,6 @@ body {
 header {
   background-color: rgba(255, 255, 255, 0);
   width: 100%;
-}
-
-.navBg {
-  background-color: rgba(255, 255, 255, 0);
 }
 
 header:hover {
@@ -317,14 +413,6 @@ ul a {
 
 li::marker {
   font-size: 0px;
-}
-
-.decoracion {
-  color: black;
-}
-
-.decoracion:hover {
-  color: rgb(0, 0, 0);
 }
 
 .cajaFlex {
@@ -391,54 +479,6 @@ li::marker {
   font-size: 30px;
 }
 
-.cajinas {
-  width: 360px;
-  height: 560px;
-}
-
-.fondoRedes {
-  background-image: url(../media/redes.PNG);
-  background-size: cover;
-}
-
-.fondoRedes1 {
-  background-image: url(../media/redes1.PNG);
-  background-size: cover;
-}
-
-.fondoRedes2 {
-  background-image: url(../media/redes2.PNG);
-  background-size: cover;
-}
-
-.fondoRedes3 {
-  background-image: url(../media/redes3.PNG);
-  background-size: cover;
-}
-
-.fb,
-.tiktok,
-.tw,
-.ig {
-  width: 90px;
-  height: 90px;
-  fill: white;
-}
-
-.redes {
-  width: 100%;
-  height: 100%;
-}
-
-.redes:hover {
-  backdrop-filter: brightness(60%);
-}
-
-.separacion {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 .direccion {
   flex-grow: 2;
 }
@@ -453,39 +493,6 @@ li::marker {
 
 .carrouselMobile {
   margin-bottom: 0px;
-}
-
-@media (max-width: 576px) {
-  .cajaLink {
-    width: 25px;
-  }
-  .iconos {
-    width: 25px;
-  }
-}
-@media (max-width: 795px) {
-  .cajinas {
-    width: 45%;
-    height: 320px;
-  }
-}
-@media (max-width: 992px) {
-  .tamano {
-    width: 100%;
-  }
-  .enviar {
-    width: 100%;
-    padding: 0;
-  }
-  .hombre {
-    background-position: 50% 7%;
-  }
-  .mujer {
-    background-position: 50% 7%;
-  }
-  .accesorios {
-    background-position: 50% 75%;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
