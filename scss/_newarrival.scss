@@ -1,0 +1,39 @@
+main {
+    .marginBanner {
+        height: 10vh;
+    }
+
+    .arrival {
+        color: #492727;
+        background-color: rgb(220, 247, 255);
+        background-image: url(../media/nieve.png) , url(../media/112.png) , url(../media/112.png);
+        background-position: 50% 70%, 15% -6% , 85% -6%;
+        font-size: 1.2rem;
+        background-repeat: no-repeat;
+
+        div {
+            .ison{
+                font-size: 4rem;
+                font-family: 'Nanum Brush Script', cursive;
+            }
+
+            .breadcrumbColor {
+                text-decoration: none;
+                color: black
+            }
+        }
+    }
+
+    section {
+
+        .snowy {
+            padding-top: 170px;
+            background-image: url(../media/snow-cap2-png-51.png);
+            background-repeat: no-repeat;
+            background-position: 50% 280%;
+            background-size: 1700px 600px;
+        }
+    }
+}
+
+/*rgb(165, 233, 255)*/

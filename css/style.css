@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Hind:wght@300;400&family=Noto+Sans+Meroitic&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Hind:wght@300;400&family=Nanum+Brush+Script&family=Noto+Sans+Meroitic&family=Rock+3D&family=Staatliches&display=swap");
 /*  variables que se repiten */
 * {
   margin: 0;
@@ -270,6 +270,12 @@ main section div div .ropaSeleccion .decorado div .colores .colorway4 {
 main section div div .ropaSeleccion .decorado div .colores .colorway5 {
   background-color: rgb(18, 65, 109);
 }
+main section div div .ropaSeleccion .decorado div .colores .colorway6 {
+  background-color: rgb(81, 25, 88);
+}
+main section div div .ropaSeleccion .decorado div .colores .colorway7 {
+  background-color: green;
+}
 main section .newsletter {
   background-color: #1a1a1a;
   color: white;
@@ -425,5 +431,33 @@ main .carrouselMobile {
     background-position: 50% 75%;
   }
 }
+main .marginBanner {
+  height: 10vh;
+}
+main .arrival {
+  color: #492727;
+  background-color: rgb(220, 247, 255);
+  background-image: url(../media/nieve.png), url(../media/112.png), url(../media/112.png);
+  background-position: 50% 70%, 15% -6%, 85% -6%;
+  font-size: 1.2rem;
+  background-repeat: no-repeat;
+}
+main .arrival div .ison {
+  font-size: 4rem;
+  font-family: "Nanum Brush Script", cursive;
+}
+main .arrival div .breadcrumbColor {
+  text-decoration: none;
+  color: black;
+}
+main section .snowy {
+  padding-top: 170px;
+  background-image: url(../media/snow-cap2-png-51.png);
+  background-repeat: no-repeat;
+  background-position: 50% 280%;
+  background-size: 1700px 600px;
+}
+
+/*rgb(165, 233, 255)*/
 
 /*# sourceMappingURL=style.css.map */
