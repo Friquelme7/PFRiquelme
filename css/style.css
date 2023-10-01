@@ -48,6 +48,10 @@ header:hover {
   transition: all 0.5s ease;
 }
 
+.marginBanner {
+  height: 10vh;
+}
+
 .indexado1 {
   z-index: 1;
 }
@@ -430,9 +434,6 @@ main .carrouselMobile {
   main .cardinas .accesorios {
     background-position: 50% 75%;
   }
-}
-main .marginBanner {
-  height: 10vh;
 }
 main .arrival {
   color: #492727;
