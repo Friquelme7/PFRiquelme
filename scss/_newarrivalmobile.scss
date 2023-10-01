@@ -14,7 +14,7 @@
             background-repeat: no-repeat;
     
             div {
-                .ison{
+                .snowbound{
                     font-size: 3.4rem;
                     font-family: 'Nanum Brush Script', cursive;
                 }
@@ -33,6 +33,27 @@
                 background-repeat: no-repeat;
                 background-position: 50% 280%;
                 background-size: 1700px 600px;
+            }
+        }
+        .tallesBg {
+            background-color: rgb(220, 247, 255);
+            div{
+                .medida{
+                    width: 60%;
+                }
+                .tamanoTabla{
+                    width: 80%;
+                }
+                .meritzTalles{
+                    font-family: $tipografiaLogo;
+                    color: #492727;
+                    font-size: 3rem;
+                }
+                .snowboundSubtitle{
+                    font-family: 'Nanum Brush Script', cursive;
+                    color: #492727;
+                    font-size: 3rem;
+                }
             }
         }
     }

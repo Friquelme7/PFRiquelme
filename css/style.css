@@ -442,7 +442,7 @@ main .arrival {
   font-size: 1.2rem;
   background-repeat: no-repeat;
 }
-main .arrival div .ison {
+main .arrival div .snowbound {
   font-size: 4rem;
   font-family: "Nanum Brush Script", cursive;
 }
@@ -460,10 +460,10 @@ main section .snowy {
 main .tallesBg {
   background-color: rgb(220, 247, 255);
 }
-main .tallesBg div .palito {
+main .tallesBg div .medida {
   width: 20%;
 }
-main .tallesBg div .try {
+main .tallesBg div .tamanoTabla {
   width: 33%;
 }
 main .tallesBg div .meritzTalles {
@@ -491,7 +491,7 @@ main .tallesBg div .snowboundSubtitle {
     font-size: 1.2rem;
     background-repeat: no-repeat;
   }
-  main .arrival div .ison {
+  main .arrival div .snowbound {
     font-size: 3.4rem;
     font-family: "Nanum Brush Script", cursive;
   }
@@ -505,6 +505,25 @@ main .tallesBg div .snowboundSubtitle {
     background-repeat: no-repeat;
     background-position: 50% 280%;
     background-size: 1700px 600px;
+  }
+  main .tallesBg {
+    background-color: rgb(220, 247, 255);
+  }
+  main .tallesBg div .medida {
+    width: 60%;
+  }
+  main .tallesBg div .tamanoTabla {
+    width: 80%;
+  }
+  main .tallesBg div .meritzTalles {
+    font-family: "Caveat", cursive;
+    color: #492727;
+    font-size: 3rem;
+  }
+  main .tallesBg div .snowboundSubtitle {
+    font-family: "Nanum Brush Script", cursive;
+    color: #492727;
+    font-size: 3rem;
   }
 }
 
