@@ -437,8 +437,8 @@ main .marginBanner {
 main .arrival {
   color: #492727;
   background-color: rgb(220, 247, 255);
-  background-image: url(../media/nieve.png), url(../media/112.png), url(../media/112.png);
-  background-position: 50% 70%, 15% -6%, 85% -6%;
+  background-image: url(../media/nieve.png), url(../media/112.png), url(../media/112.png), url(../media/112.png), url(../media/112.png), url(../media/112.png), url(../media/112.png);
+  background-position: 50% 70%, 2% -6%, 32% 2%, 100% -9%, 78% 4%, 51% -12%;
   font-size: 1.2rem;
   background-repeat: no-repeat;
 }
@@ -457,7 +457,55 @@ main section .snowy {
   background-position: 50% 280%;
   background-size: 1700px 600px;
 }
+main .tallesBg {
+  background-color: rgb(220, 247, 255);
+}
+main .tallesBg div .palito {
+  width: 20%;
+}
+main .tallesBg div .try {
+  width: 33%;
+}
+main .tallesBg div .meritzTalles {
+  font-family: "Caveat", cursive;
+  color: #492727;
+  font-size: 3rem;
+}
+main .tallesBg div .snowboundSubtitle {
+  font-family: "Nanum Brush Script", cursive;
+  color: #492727;
+  font-size: 3.2rem;
+}
 
 /*rgb(165, 233, 255)*/
+@media (max-width: 576px) {
+  main .marginBanner {
+    height: 10vh;
+  }
+  main .arrival {
+    color: #492727;
+    background-color: rgb(220, 247, 255);
+    background-image: url(../media/nieve.png), url(../media/112.png), url(../media/112.png), url(../media/112.png), url(../media/112.png), url(../media/112.png), url(../media/112.png);
+    background-position: 50% 102%, 5% 0%, 50% 1.1%, 90% -0.2%, 90% 2%, -14% 2%, 40% 2.5%;
+    background-size: auto, 90px 90px, 90px 90px, 90px 90px, 90px 90px, 90px 90px, 90px 90px;
+    font-size: 1.2rem;
+    background-repeat: no-repeat;
+  }
+  main .arrival div .ison {
+    font-size: 3.4rem;
+    font-family: "Nanum Brush Script", cursive;
+  }
+  main .arrival div .breadcrumbColor {
+    text-decoration: none;
+    color: black;
+  }
+  main section .snowy {
+    padding-top: 170px;
+    background-image: url(../media/snow-cap2-png-51.png);
+    background-repeat: no-repeat;
+    background-position: 50% 280%;
+    background-size: 1700px 600px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

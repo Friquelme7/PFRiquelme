@@ -6,13 +6,13 @@ main {
     .arrival {
         color: #492727;
         background-color: rgb(220, 247, 255);
-        background-image: url(../media/nieve.png) , url(../media/112.png) , url(../media/112.png);
-        background-position: 50% 70%, 15% -6% , 85% -6%;
+        background-image: url(../media/nieve.png), url(../media/112.png), url(../media/112.png), url(../media/112.png), url(../media/112.png), url(../media/112.png), url(../media/112.png);
+        background-position: 50% 70%, 2% -6%, 32% 2%, 100% -9%, 78% 4%, 51% -12%;
         font-size: 1.2rem;
         background-repeat: no-repeat;
 
         div {
-            .ison{
+            .ison {
                 font-size: 4rem;
                 font-family: 'Nanum Brush Script', cursive;
             }
@@ -25,7 +25,6 @@ main {
     }
 
     section {
-
         .snowy {
             padding-top: 170px;
             background-image: url(../media/snow-cap2-png-51.png);
@@ -34,6 +33,29 @@ main {
             background-size: 1700px 600px;
         }
     }
+
+    .tallesBg {
+        background-color: rgb(220, 247, 255);
+        div{
+            .palito{
+                width: 20%;
+            }
+            .try{
+                width: 33%;
+            }
+            .meritzTalles{
+                font-family: $tipografiaLogo;
+                color: #492727;
+                font-size: 3rem;
+            }
+            .snowboundSubtitle{
+                font-family: 'Nanum Brush Script', cursive;
+                color: #492727;
+                font-size: 3.2rem;
+            }
+        }
+    }
 }
+
 
 /*rgb(165, 233, 255)*/
