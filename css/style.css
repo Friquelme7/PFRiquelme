@@ -527,5 +527,39 @@ main .tallesBg div .snowboundSubtitle {
     font-size: 3rem;
   }
 }
+main section .migue {
+  font-size: 1.2rem;
+}
+main section .migue ol li .breadcrumbColor {
+  text-decoration: none;
+  color: black;
+}
+
+main section .migue {
+  font-size: 1.2rem;
+}
+main section .migue ol li .breadcrumbColor {
+  text-decoration: none;
+  color: black;
+}
+
+main section div .direccionLink {
+  width: 20px;
+  height: 20px;
+  fill: #000000;
+}
+main section div .direcciones {
+  font-weight: 100;
+  font-size: 0.9rem;
+  margin-left: 1px;
+}
+main section div .elpepa {
+  width: 90%;
+}
+main section div .elpepa div .carousel-indicators .ladisco {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

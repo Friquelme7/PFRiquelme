@@ -1,0 +1,30 @@
+main {
+    section {
+        div {
+            .direccionLink{
+                width: 20px;
+                height: 20px;
+                fill: #000000;  
+            }
+            .direcciones {
+                font-weight: 100;
+                font-size: 0.9rem;
+                margin-left: 1px;
+            }
+
+            .elpepa {
+                width: 90%;
+
+                div {
+                    .carousel-indicators {
+                        .ladisco {
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
