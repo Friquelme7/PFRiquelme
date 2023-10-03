@@ -543,6 +543,9 @@ main section .migue ol li .breadcrumbColor {
   color: black;
 }
 
+main section div .chanito {
+  width: 19%;
+}
 main section div .direccionLink {
   width: 20px;
   height: 20px;
