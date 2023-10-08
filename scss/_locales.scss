@@ -1,19 +1,43 @@
 main {
     section {
         div {
-            .chanito{
+            .pruebilla {
+                background-color: #dbcfbb9f;
+                border-radius: 100%;
+                width: 35%;
+
+                .try {
+                    color: #412626;
+                    font-size: 58px;
+                }
+
+                .padeo {
+                    padding-top: 30px;
+                }
+
+                .padeo1 {
+                    padding-top: 12px;
+                }
+            }
+        }
+
+        div {
+            .chanito {
                 width: 19%;
             }
-            .direccionLink{
+
+            .direccionLink {
                 width: 20px;
                 height: 20px;
-                fill: #000000;  
+                fill: #000000;
             }
+
             .direcciones {
                 font-weight: 100;
                 font-size: 0.9rem;
                 margin-left: 1px;
             }
+
 
             .elpepa {
                 width: 90%;
@@ -24,6 +48,13 @@ main {
                             width: 10px;
                             height: 10px;
                             border-radius: 100%;
+                        }
+                    }
+                    .carousel-item{
+                        
+                        .altura{
+                            width: 100%;
+                            height: auto;
                         }
                     }
                 }

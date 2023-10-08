@@ -1,0 +1,161 @@
+@media (min-width:0px){
+    main{
+        section{
+            div{
+                .pruebilla{
+                    background-color: #dbcfbb9f;
+                    border-radius: 100%;
+                    width: 85%;
+
+                    .try{
+                        font-size: 38px;
+                    }
+                    .padeo {
+                        padding-top: 25px;
+                        margin-left: 10px;
+                    }
+    
+                    .padeo1 {
+                        padding-top: 12px;
+                    }
+                }
+                .chanito{
+                    width: 100%;
+                }
+                .elpepa{
+                    width: 100%;
+                    div{
+                        .carousel-item{
+                        
+                            .altura{
+                                width: 100%;
+                                height: 254px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:576px){
+    main{
+        section{
+            div{
+                .pruebilla{
+                    background-color: #dbcfbb9f;
+                    border-radius: 100%;
+                    width: 60%;
+
+                    .try{
+                        font-size: 48px;
+                    }
+                    .padeo {
+                        padding-top: 25px;
+                        margin-left: 12px;
+                    }
+    
+                    .padeo1 {
+                        padding-top: 12px;
+                    }
+                }
+                .chanito{
+                    width: 100%;
+                }
+                .elpepa{
+                    width: 100%;
+                    div{
+                        .carousel-item{
+                        
+                            .altura{
+                                width: 100%;
+                                height: 254px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:768px){
+    main{
+        section{
+            div{
+                .pruebilla{
+                    background-color: #dbcfbb9f;
+                    border-radius: 100%;
+                    width: 48%;
+
+                    .try{
+                        font-size: 55px;
+                    }
+                    .padeo {
+                        padding-top: 25px;
+                        margin-left: 10px;
+                    }
+    
+                    .padeo1 {
+                        padding-top: 12px;
+                    }
+                }
+                .chanito{
+                    width: 100%;
+                }
+                .elpepa{
+                    width: 100%;
+                    div{
+                        .carousel-item{
+                        
+                            .altura{
+                                width: 100%;
+                                height: 290px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:992px){
+    main{
+        section{
+            div{
+                .pruebilla{
+                    background-color: #dbcfbb9f;
+                    border-radius: 100%;
+                    width: 30%;
+
+                    .try{
+                        font-size: 60px;
+                    }
+                    .padeo {
+                        padding-top: 25px;
+                        margin-left: 0px;
+                    }
+    
+                    .padeo1 {
+                        padding-top: 12px;
+                    }
+                }
+                .chanito{
+                    width: 20%;
+                }
+                .elpepa{
+                    width: 80%;
+                    div{
+                        .carousel-item{
+                        
+                            .altura{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
