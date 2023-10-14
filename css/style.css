@@ -484,7 +484,6 @@ main .tallesBg div .snowboundSubtitle {
   font-size: 3.2rem;
 }
 
-/*rgb(165, 233, 255)*/
 @media (max-width: 576px) {
   main .marginBanner {
     height: 10vh;
@@ -549,22 +548,22 @@ main section .migue ol li .breadcrumbColor {
   color: black;
 }
 
-main section div .pruebilla {
+main section div .FondoTitulo {
   background-color: rgba(219, 207, 187, 0.6235294118);
   border-radius: 100%;
   width: 35%;
 }
-main section div .pruebilla .try {
+main section div .FondoTitulo .FuenteTienda {
   color: #412626;
   font-size: 58px;
 }
-main section div .pruebilla .padeo {
+main section div .FondoTitulo .padingTienda {
   padding-top: 30px;
 }
-main section div .pruebilla .padeo1 {
+main section div .FondoTitulo .padingNuestras {
   padding-top: 12px;
 }
-main section div .chanito {
+main section div .DireccionTamano {
   width: 19%;
 }
 main section div .direccionLink {
@@ -577,123 +576,123 @@ main section div .direcciones {
   font-size: 0.9rem;
   margin-left: 1px;
 }
-main section div .elpepa {
+main section div .EspacioLocales {
   width: 90%;
 }
-main section div .elpepa div .carousel-indicators .ladisco {
+main section div .EspacioLocales div .carousel-indicators .ladisco {
   width: 10px;
   height: 10px;
   border-radius: 100%;
 }
-main section div .elpepa div .carousel-item .altura {
+main section div .EspacioLocales div .carousel-item .altura {
   width: 100%;
   height: auto;
 }
 
 @media (min-width: 0px) {
-  main section div .pruebilla {
+  main section div .FondoTitulo {
     background-color: rgba(219, 207, 187, 0.6235294118);
     border-radius: 100%;
     width: 85%;
   }
-  main section div .pruebilla .try {
+  main section div .FondoTitulo .FuenteTienda {
     font-size: 38px;
   }
-  main section div .pruebilla .padeo {
+  main section div .FondoTitulo .padingTienda {
     padding-top: 25px;
     margin-left: 10px;
   }
-  main section div .pruebilla .padeo1 {
+  main section div .FondoTitulo .padingNuestras {
     padding-top: 12px;
   }
-  main section div .chanito {
+  main section div .DireccionTamano {
     width: 100%;
   }
-  main section div .elpepa {
+  main section div .EspacioLocales {
     width: 100%;
   }
-  main section div .elpepa div .carousel-item .altura {
+  main section div .EspacioLocales div .carousel-item .altura {
     width: 100%;
     height: 254px;
   }
 }
 @media (min-width: 576px) {
-  main section div .pruebilla {
+  main section div .FondoTitulo {
     background-color: rgba(219, 207, 187, 0.6235294118);
     border-radius: 100%;
     width: 60%;
   }
-  main section div .pruebilla .try {
+  main section div .FondoTitulo .FuenteTienda {
     font-size: 48px;
   }
-  main section div .pruebilla .padeo {
+  main section div .FondoTitulo .padingTienda {
     padding-top: 25px;
     margin-left: 12px;
   }
-  main section div .pruebilla .padeo1 {
+  main section div .FondoTitulo .padingNuestras {
     padding-top: 12px;
   }
-  main section div .chanito {
+  main section div .DireccionTamano {
     width: 100%;
   }
-  main section div .elpepa {
+  main section div .EspacioLocales {
     width: 100%;
   }
-  main section div .elpepa div .carousel-item .altura {
+  main section div .EspacioLocales div .carousel-item .altura {
     width: 100%;
     height: 254px;
   }
 }
 @media (min-width: 768px) {
-  main section div .pruebilla {
+  main section div .FondoTitulo {
     background-color: rgba(219, 207, 187, 0.6235294118);
     border-radius: 100%;
     width: 48%;
   }
-  main section div .pruebilla .try {
+  main section div .FondoTitulo .FuenteTienda {
     font-size: 55px;
   }
-  main section div .pruebilla .padeo {
+  main section div .FondoTitulo .padingTienda {
     padding-top: 25px;
     margin-left: 10px;
   }
-  main section div .pruebilla .padeo1 {
+  main section div .FondoTitulo .padingNuestras {
     padding-top: 12px;
   }
-  main section div .chanito {
+  main section div .DireccionTamano {
     width: 100%;
   }
-  main section div .elpepa {
+  main section div .EspacioLocales {
     width: 100%;
   }
-  main section div .elpepa div .carousel-item .altura {
+  main section div .EspacioLocales div .carousel-item .altura {
     width: 100%;
     height: 290px;
   }
 }
 @media (min-width: 992px) {
-  main section div .pruebilla {
+  main section div .FondoTitulo {
     background-color: rgba(219, 207, 187, 0.6235294118);
     border-radius: 100%;
     width: 30%;
   }
-  main section div .pruebilla .try {
+  main section div .FondoTitulo .FuenteTienda {
     font-size: 60px;
   }
-  main section div .pruebilla .padeo {
+  main section div .FondoTitulo .padingTienda {
     padding-top: 25px;
     margin-left: 0px;
   }
-  main section div .pruebilla .padeo1 {
+  main section div .FondoTitulo .padingNuestras {
     padding-top: 12px;
   }
-  main section div .chanito {
+  main section div .DireccionTamano {
     width: 20%;
   }
-  main section div .elpepa {
+  main section div .EspacioLocales {
     width: 80%;
   }
-  main section div .elpepa div .carousel-item .altura {
+  main section div .EspacioLocales div .carousel-item .altura {
     width: 100%;
     height: 100%;
   }
